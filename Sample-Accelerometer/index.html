@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta charset="utf-8">
+	<link href="styles/theme.css" rel="stylesheet" type="text/css">
+	<link href="styles/main.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+	<script type="text/javascript" charset="utf-8" src="scripts/main.js"></script>
+</head>
+<body>
+	<div class="header">
+		<h1>Accelerometer</h1>
+	</div>
+	<div class="subheader">
+		<div class="row">
+			<div class="col">
+				<button class="button" id="startButton">Start</button>
+			</div>
+			<div class="col">
+				<button class="button" id="stopButton">Stop</button>
+			</div>
+		</div>
+	</div>
+	<div class="content">
+		<div class="row">
+			<div class="col -text-right">
+				<span class="u-text-bold">X:</span>
+			</div>
+			<div class="col -text-left">
+				<span class="-ellipsis u-color-accent" id="spanDirectionX"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col -text-right">
+				<span class="u-text-bold">Y:</span>
+			</div>
+			<div class="col -text-left">
+				<span class="-ellipsis u-color-accent" id="spanDirectionY"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col -text-right">
+				<span class="u-text-bold">Z:</span>
+			</div>
+			<div class="col -text-left">
+				<span class="-ellipsis u-color-accent" id="spanDirectionZ"></span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col -text-right">
+				<span class="u-text-bold">Timestamp:</span>
+			</div>
+			<div class="col -text-left">
+				<span class="-ellipsis u-color-accent" id="spanTimeStamp"></span>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<span>Feature Examples</span>
+	</div>
+</body>
+</html>

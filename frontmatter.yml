@@ -1,0 +1,8 @@
+title: Accelerometer
+slug: sample-accelerometer
+page_title: Device Motion (Accelerometer) | Apache Cordova Sample | Telerik Platform
+description: This sample shows you how to use the Device Motion Apache Cordova core plugin to access the accelerometer sensor of your mobile device. 
+tags: Apache Cordova, core, accelerometer, device motion, iOS, Android, Windows Phone
+publish: true
+content_filter: true
+apis: cordova.deviceMotion cordova.deviceMotion.watchAcceleration cordova.deviceMotion.clearWatch

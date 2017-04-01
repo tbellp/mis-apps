@@ -1,0 +1,5 @@
+/* specific */
+.content span {
+	overflow: hidden;
+	white-space: nowrap;
+}
